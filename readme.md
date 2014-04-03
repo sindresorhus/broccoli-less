@@ -1,5 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-less [![Build Status](https://travis-ci.org/sindresorhus/broccoli-less.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-less)
-
+# [broccoli](https://github.com/joliss/broccoli)-less [![Build Status](https://travis-ci.org/sindresorhus/broccoli-less.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-less)
 > Compile [LESS](http://lesscss.org)
 
 *Issues with the output should be reported on the LESS [issue tracker](https://github.com/less/less.js/issues).*
@@ -7,8 +6,8 @@
 
 ## Install
 
-```
-npm install --save broccoli-less
+```bash
+$ npm install --save broccoli-less
 ```
 
 
@@ -31,4 +30,4 @@ See the LESS [options](http://lesscss.org/#using-less-configuration).
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
