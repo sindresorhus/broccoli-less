@@ -6,12 +6,12 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save broccoli-less
 ```
 
 
-## Example
+## Usage
 
 ```js
 var less = require('broccoli-less');
@@ -30,4 +30,4 @@ See the LESS [options](http://lesscss.org/#using-less-configuration).
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
