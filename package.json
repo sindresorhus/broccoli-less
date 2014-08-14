@@ -1,6 +1,6 @@
 {
   "name": "broccoli-less",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Compile LESS",
   "license": "MIT",
   "repository": "sindresorhus/broccoli-less",
