@@ -22,10 +22,11 @@ LessFilter.prototype.processString = function (str) {
 	return new RSVP.Promise(function(resolve, reject) {
 		less.render(str, this.options, function (err, data) {
 			if (err) {
-				return reject(err);
+				reject(err);
+				return;
 			}
 
-			resolve(data);
+			resolve(data.css);
 		});
 	}.bind(this));
 };
