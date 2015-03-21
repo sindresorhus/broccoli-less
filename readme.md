@@ -6,8 +6,8 @@
 
 ## Install
 
-```sh
-$ npm install --save broccoli-less
+```
+$ npm install --save-dev broccoli-less
 ```
 
 
@@ -21,7 +21,7 @@ tree = less(tree, options);
 
 ## API
 
-### less(tree, options)
+### less(tree, [options])
 
 #### options
 
