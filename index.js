@@ -8,6 +8,8 @@ function LessFilter(inputTree, options) {
 		return new LessFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options || {};
 }

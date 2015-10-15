@@ -26,13 +26,13 @@
     "compile"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.6",
+    "broccoli-filter": "^1.2.2",
     "less": "^2.0.0",
     "rsvp": "^3.0.4"
   },
   "devDependencies": {
-    "broccoli": "^0.13.2",
-    "broccoli-cli": "0.0.1",
+    "broccoli": "^0.16.8",
+    "broccoli-cli": "^1.0.0",
     "mocha": "*",
     "rimraf": "^2.2.6"
   }
