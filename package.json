@@ -1,39 +1,39 @@
 {
-  "name": "broccoli-less",
-  "version": "2.1.0",
-  "description": "Compile LESS",
-  "license": "MIT",
-  "repository": "sindresorhus/broccoli-less",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "broccoli build temp && mocha"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "broccoli-plugin",
-    "less",
-    "css",
-    "preprocessor",
-    "compile"
-  ],
-  "dependencies": {
-    "broccoli-filter": "^1.2.2",
-    "less": "^2.0.0",
-    "rsvp": "^3.0.4"
-  },
-  "devDependencies": {
-    "broccoli": "^0.16.8",
-    "broccoli-cli": "^1.0.0",
-    "mocha": "*",
-    "rimraf": "^2.2.6"
-  }
+	"name": "broccoli-less",
+	"version": "2.1.0",
+	"description": "Compile LESS",
+	"license": "MIT",
+	"repository": "sindresorhus/broccoli-less",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "broccoli build temp && mocha"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"broccoli-plugin",
+		"less",
+		"css",
+		"preprocessor",
+		"compile"
+	],
+	"dependencies": {
+		"broccoli-filter": "^1.2.2",
+		"less": "^2.0.0",
+		"rsvp": "^3.0.4"
+	},
+	"devDependencies": {
+		"broccoli": "^0.16.8",
+		"broccoli-cli": "^1.0.0",
+		"mocha": "*",
+		"rimraf": "^2.2.6"
+	}
 }
