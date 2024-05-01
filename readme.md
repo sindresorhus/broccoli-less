@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install --save-dev broccoli-less
+```sh
+npm install --save-dev broccoli-less
 ```
 
 ## Usage
